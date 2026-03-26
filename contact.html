@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sampark Karein (Contact Us) - Digital Hub Hindi</title>
+    
+    <meta name="description" content="Digital Hub Hindi se sampark karein. Kisi bhi sawal, sujhaav ya business enquiry ke liye hume message bhejein.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Digital Hub <span>Hindi</span></a>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="ai-tools.html">AI Tools</a>
+                <a href="earning.html">Online Earning</a>
+                <a href="useful-sites.html">Useful Websites</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" style="padding: 60px 20px;">
+        <div class="container hero-content">
+            <h1>Sampark Karein (Contact Us)</h1>
+            <p>Aapka koi sawal hai, sujhaav hai, ya business enquiry hai? Niche diye gaye form ko bhar kar humse baat karein.</p>
+        </div>
+    </section>
+
+    <section class="section-padding">
+        <div class="container" style="max-width: 600px; margin: 0 auto;">
+            
+            <div class="card" style="padding: 40px; border-top: 4px solid var(--accent);">
+                <h2 style="margin-bottom: 25px; text-align: center;">Hume Message Bhejein</h2>
+                
+                <form action="#" method="GET" onsubmit="alert('Message bheja gaya! (Yeh abhi demo mode mein hai)'); return false;">
+                    
+                    <div style="margin-bottom: 20px;">
+                        <label for="name" style="display: block; margin-bottom: 8px; font-weight: 600; color: var(--text-main);">Aapka Naam</label>
+                        <input type="text" id="name" required placeholder="Apna pura naam likhein" style="width: 100%; padding: 12px 15px; border: 1px solid #cbd5e1; border-radius: 8px; font-family: var(--font-body); font-size: 16px; outline: none; transition: border 0.3s;">
+                    </div>
+
+                    <div style="margin-bottom: 20px;">
+                        <label for="email" style="display: block; margin-bottom: 8px; font-weight: 600; color: var(--text-main);">Aapka Email ID</label>
+                        <input type="email" id="email" required placeholder="example@gmail.com" style="width: 100%; padding: 12px 15px; border: 1px solid #cbd5e1; border-radius: 8px; font-family: var(--font-body); font-size: 16px; outline: none; transition: border 0.3s;">
+                    </div>
+
+                    <div style="margin-bottom: 25px;">
+                        <label for="message" style="display: block; margin-bottom: 8px; font-weight: 600; color: var(--text-main);">Aapka Sandesh (Message)</label>
+                        <textarea id="message" required rows="5" placeholder="Aap kya jaanna chahte hain?" style="width: 100%; padding: 12px 15px; border: 1px solid #cbd5e1; border-radius: 8px; font-family: var(--font-body); font-size: 16px; outline: none; resize: vertical; transition: border 0.3s;"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary" style="width: 100%; text-align: center; font-size: 20px;">Message Bhejein</button>
+                </form>
+
+                <div style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #e2e8f0;">
+                    <p style="color: var(--text-light); font-size: 16px;">Ya aap hume direct email bhi kar sakte hain:<br>
+                    <strong style="color: var(--primary-dark);">contact@digitalhubhindi.com</strong></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Digital Hub Hindi. Saare adhikar surakshit hain.</p>
+            <div style="margin-top: 15px;">
+                <a href="about.html" style="color: white; margin: 0 10px; text-decoration: none; font-size: 14px; opacity: 0.8;">About Us</a>
+                <a href="contact.html" style="color: white; margin: 0 10px; text-decoration: none; font-size: 14px; opacity: 0.8;">Contact</a>
+                <a href="privacy-policy.html" style="color: white; margin: 0 10px; text-decoration: none; font-size: 14px; opacity: 0.8;">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
